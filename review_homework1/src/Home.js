@@ -2,7 +2,9 @@ import React from "react";
 import styled from "styled-components";
 import { useHistory } from "react-router-dom";
 
+// 홈 함수형 컴퍼넌트 선언
 const Home = (props) => {
+  //페이지 전환을 위한 useHistory 사용
   const history = useHistory();
 
   //요일

@@ -24,6 +24,7 @@ const Detail = (props) => {
         {Array.from({ length: 5 }, (item, idx) => {
           return (
             <Circle
+              key={idx}
               onClick={() => {
                 setRate(idx + 1);
               }}
